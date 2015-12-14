@@ -211,7 +211,7 @@ ig.module(
           ig.system.clear()
           this.font.draw('Eat the World - Level ' + this.level, 10, 10, ig.Font.ALIGN.LEFT)
           this.font.draw('The evil king got the best of you. \nAre you okay with that?', 10, 30, ig.Font.ALIGN.LEFT)
-          this.font.draw('Press Up to return to menu.', 10, ig.system.height / 2 + 20, ig.Font.ALIGN.LEFT)
+          this.font.draw('Press Up to return to restart.', 10, ig.system.height / 2 + 20, ig.Font.ALIGN.LEFT)
         }
       },
 

@@ -25,8 +25,9 @@ ig.module('game.games.menu')
         this.textFont.draw('The evil king turned you into a lowly slime. Seek revenge by eating everything in his kingdom.', 10, 30, ig.Font.ALIGN.LEFT)
         this.font.draw('Press Up to start the game.', 10, ig.system.height / 2 + 20, ig.Font.ALIGN.LEFT)
         
-        this.font.draw('Press Up to Jump in Game.', 10, ig.system.height / 2 + 120, ig.Font.ALIGN.LEFT)
-        this.font.draw('Press Down to Eat in Game.', 10, ig.system.height / 2 + 140, ig.Font.ALIGN.LEFT)
+        this.font.draw('Press Up to Jump in Game.', 10, ig.system.height / 2 + 100, ig.Font.ALIGN.LEFT)
+        this.font.draw('Press Down to Eat in Game.', 10, ig.system.height / 2 + 120, ig.Font.ALIGN.LEFT)
+        this.font.draw('Dive into knights by pressing down mid-air',  10, ig.system.height / 2 + 140, ig.Font.ALIGN.LEFT)
       }
     });
   });
